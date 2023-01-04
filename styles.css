@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    border: 1px solid black;
+}
+
+h1{
+    font-size: 300px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    flex-basis: 100%;
+    text-align: center;
+
+}
+
+.rotate{
+    color: orange;
+    transform: rotate(180deg);
+    transition: transform, 2sec;
+}
